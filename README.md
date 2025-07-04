@@ -18,47 +18,43 @@ The primary objective of this activity was to develop a Python script that reads
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Step 1: Creating a Sample Log File <br/>
+Step 1: Creating a Sample Log File. For this project, I created a simple, simulated web server access log file named access.log. In a real-world scenario, this would be a log file collected from an actual web server. <br/>
    
 <img src="https://github.com/user-attachments/assets/096f4f66-aa8f-4db2-8ec0-b89315b0d67f" width="653" alt="Step 1 Screenshot"/>
 <br />
 
 <p align="center">
-Step 2: Interpret the Permissions String <br/>
+Step 2: Paste the following sample log entries into the nano editor. These include a few simulated failed login attempts <br/>
    
-<img src="https://github.com/user-attachments/assets/6f2acc9f-c6c4-475b-af0c-f78e40ed655b" width="653" alt="Step 1 Screenshot"/>
+<img src="https://github.com/user-attachments/assets/d8d92c18-fbbf-4657-912a-8d4ceb6c8696" width="653" alt="Step 1 Screenshot"/>
 <br />
 
 <p align="center">
-Step 3: Identify and Change File Permissions <br/>
+Step 3: Developing the Python Automation Script. Wrote a Python script, analyze_logs.py, to read the access.log file, search for "Failed login" messages, and count how many times each IP address attempted a failed login. <br/>
    
-<img src="https://github.com/user-attachments/assets/573e429b-6763-48c9-82af-224ba6972756" width="653" alt="Step 1 Screenshot"/>
+<img src="https://github.com/user-attachments/assets/8825b447-82ec-4d85-8267-147909df04b6" width="653" alt="Step 1 Screenshot"/>
 <br />
 
 <p align="center">
-Step 4: Modify Hidden File Permissions <br/>
+Step 4: Python code into the nano editor <br/>
    
-<img src="https://github.com/user-attachments/assets/2357ae3f-17cb-4ad2-80c8-0b3bf96e35e7" width="653" alt="Step 1 Screenshot"/>
+<img src="https://github.com/user-attachments/assets/3909937e-6ec5-487a-84ac-69d0455c7113" width="653" alt="Step 1 Screenshot"/>
 <br />
 
 <p align="center">
-Step 5: Change Directory Permissions <br/>
+Step 5: Executing the Python Script. Ran the Python script from the terminal to process the access.log file. <br/>
    
-<img src="https://github.com/user-attachments/assets/1ca2f5d6-2b24-4720-80b8-333240d07a20" width="653" alt="Step 1 Screenshot"/>
+<img src="https://github.com/user-attachments/assets/194b4785-430e-4b67-94a4-ec9c77c09f81" width="653" alt="Step 1 Screenshot"/>
 <br />
 ---
 
-<h2>Security Concepts Applied:</h2>
-
-* **Principle of Least Privilege: Granting only the minimum necessary permissions for users and processes to perform their tasks.**
-* **Access Control: Implementing mechanisms to restrict who can access and modify files and directories.**
-* **Data Confidentiality & Integrity: Protecting sensitive information from unauthorised viewing (confidentiality) and unauthorised changes (integrity).**
-* **Defence in Depth: Adding layers of security, where file permissions serve as a critical layer at the operating system level.**
 
 <h2>Key Learnings & Takeaways:</h2>
 
-* **Gained practical proficiency in using ls -la and chmod for effective Linux file system security management.**
-* **Deepened understanding of how file permissions directly impact system security and data protection.**
-* **Reinforced the importance of regularly reviewing and correctly setting permissions to prevent unauthorised access and maintain system integrity.**
-* **Developed a more methodical approach to identifying and remediating access control misconfigurations.**
+* **Power of Automation: Understood how even a simple script can automate repetitive log review tasks, saving time and improving efficiency for security analysts.**
+* **Foundational Python for Security: Gained practical experience with Python for file handling, string searching, and basic data aggregation – essential skills for more complex security scripts.**
+* **Log Data Importance: Reinforced the critical role of log files as a primary source of truth for detecting security incidents and understanding system activity.**
+* **Pattern Identification: Developed skills in identifying specific patterns or keywords within large volumes of log data to pinpoint security events.**
+* **Problem-Solving through Code: Practised translating a real-world security problem (finding failed logins) into a logical and executable programming solution.**
+* **Scalability: Realised that while this script is basic, the principles can be scaled up to process much larger datasets or integrate with more advanced tools (like SIEMs) for comprehensive analysis.
 
