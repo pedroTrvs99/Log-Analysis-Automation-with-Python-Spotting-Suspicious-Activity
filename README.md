@@ -20,7 +20,7 @@ The primary objective of this activity was to develop a Python script that reads
 <p align="center">
 Step 1: Creating a Sample Log File <br/>
    
-<img src="https://github.com/user-attachments/assets/ae7d3334-882c-46ae-9f6e-2d3e20f33f11" width="653" alt="Step 1 Screenshot"/>
+<img src="https://github.com/user-attachments/assets/096f4f66-aa8f-4db2-8ec0-b89315b0d67f" width="653" alt="Step 1 Screenshot"/>
 <br />
 
 <p align="center">
