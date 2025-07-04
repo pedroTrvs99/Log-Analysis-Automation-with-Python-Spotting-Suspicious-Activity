@@ -56,5 +56,5 @@ Step 5: Executing the Python Script. Ran the Python script from the terminal to 
 * **Log Data Importance: Reinforced the critical role of log files as a primary source of truth for detecting security incidents and understanding system activity.**
 * **Pattern Identification: Developed skills in identifying specific patterns or keywords within large volumes of log data to pinpoint security events.**
 * **Problem-Solving through Code: Practised translating a real-world security problem (finding failed logins) into a logical and executable programming solution.**
-* **Scalability: Realised that while this script is basic, the principles can be scaled up to process much larger datasets or integrate with more advanced tools (like SIEMs) for comprehensive analysis.
+* **Scalability: Realised that while this script is basic, the principles can be scaled up to process much larger datasets or integrate with more advanced tools (like SIEMs) for comprehensive analysis.**
 
